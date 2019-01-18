@@ -1,0 +1,156 @@
+.container{
+	margin: 0px auto;
+}
+@media only screen and (max-width: 640px){
+	.camera ul li{
+		width: 26%;
+	}
+	.details .news .n_right .button button:nth-child(2){
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 768px){
+	/*index*/
+	.logo .navbar ul{
+		display: none;
+	}
+	.collapse{
+		display: block;
+	}
+	#nav:checked~ul{
+		display: block;
+	}
+	.navbar ul{
+		position: absolute;
+		right: 0;
+		top: 120px;
+		background: rgba(0,0,0,0.4);
+	}
+	.navbar ul li{
+		width: 100%;
+	}
+	.navbar ul li:hover{
+		background: rgba(0,0,0,.7);
+		color: #fff;
+	}
+	.navbar ul li:hover a{
+		color: #fff;
+	}
+	.essential .e_flex{
+		display: block;
+		width: 90%;
+	}
+	.essential .e_right{
+		padding-left: 0px;
+	}
+	.essential .e_right button{
+		margin-bottom: 4px;
+	}
+	
+	/*page*/
+	.sheet .s_flex{
+	display: block;
+}
+	.sheet .s_left {
+	    padding-left: 0;
+	}
+	.sheet .s_right {
+	    padding-left: 0;
+	}
+}
+@media only screen and (min-width: 768px) {
+	/*index*/
+	.container{
+		width:750px;
+	}
+	.logo .navbar ul li{
+		font-size: 12px;
+		padding: 23px 6px;
+	}
+	.logo .Img .word p{
+		font-size: 4px;
+	}
+	.logo .Img .word h2{
+		font-size: 16px;
+	}
+	
+	
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	/*index*/
+	.logo .Img .word p{
+		font-size: 6px;
+	}
+	.logo .Img .word h2{
+		font-size: 20px;
+	}
+	
+	/*page*/
+	.sheet .s_left {
+	    padding-left: 5.8%;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+	/*index*/
+	.logo .navbar ul li{
+		padding: 23px 18px;
+	}
+	.logo .Img .word p{
+		font-size: 10px;
+	}
+	.logo .Img .word h2{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	/*index*/
+	.product .flex{
+		display: block;
+	}
+	.product .content{
+		margin: 10px auto 0;
+	}
+	
+	
+}
+@media only screen and (min-width: 992px) {
+	/*index*/
+	.container{
+		width: 970px;
+	}
+	.logo .navbar ul li{
+		padding: 23px 20px;
+	}
+	.logo .Img .word p{
+		font-size: 14px;
+	}
+	.logo .Img .word h2{
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	/*index*/
+	.among .sowing ul{
+		height: 100%;
+		overflow: visible;
+	}
+	.among .sowing ul li{
+		float: none;
+	}
+	
+	/*page*/
+	.details .news{
+		display: block;
+		text-align: center;
+	}
+	
+}
+@media only screen and (min-width: 1300px) {
+	/*index*/
+	.container{
+		width: 1200px;
+	}
+	.logo .navbar ul li{
+		padding: 23px 26px;
+	}
+}
